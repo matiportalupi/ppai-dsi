@@ -1,0 +1,245 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.jks
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/
+.nb-gradle/
+*.nbactions.xml
+
+# IDE - Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# IDE - Atom
+.atom/
+
+# OS - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# OS - Windows
+Thumbs.db
+Desktop.ini
+.~lock.*#
+
+# OS - Linux
+.~lock.*
+
+# Build
+bin/
+build/
+*.class
+*.jar
+*.war
+*.rar
+*.zip
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Logs
+*.log
+logs/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Unit test / coverage reports
+target/
+.jacoco/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Java
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ specific files
+out/
+*.iml
+.idea_modules/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Local environment file
+.env
+.env.local
+
+# Node (if using any Node tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE temp files
+.classpath
+.c9/
+
+# Maven compilation database
+.repository/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Directories
+/target/
+/build/
+/dist/
+/bin/
+/out/
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows files
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Linux files
+.directory
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Maven
+.m2/
+target/
+pom.xml.versionsBackup
+
+# Java
+*.class
+*.jar
+*.war
+
+# Gradle (if applicable)
+.gradle/
+build/
+
+# Misc
+*.orig
