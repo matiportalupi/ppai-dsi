@@ -51,6 +51,10 @@ public class EventoSismico {
     public float getValorMagnitud() {
         return this.magnitud != null ? this.magnitud.getValor() : 0.0f;
     }
+
+    public String getNombreMagnitud() {
+        return this.magnitud != null ? this.magnitud.getNombre() : "Desconocida";
+    }
     
     public LocalDateTime getFechaHoraOcurrencia() { return fechaHoraOcurrencia; }
     public void setFechaHoraOcurrencia(LocalDateTime fechaHoraOcurrencia) { this.fechaHoraOcurrencia = fechaHoraOcurrencia; }

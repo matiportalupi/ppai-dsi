@@ -2,7 +2,6 @@ package com.example.modelo;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.Locale;
 
 public class GestorRegistroResultado {
     private List<EventoSismico> eventosSismicos;
@@ -55,7 +54,7 @@ public class GestorRegistroResultado {
         if (!evento.obtenerEstadoActual().map(Estado::esBloqueadoEnRevision).orElse(false)) {
             throw new IllegalStateException("La acción no es válida: El evento debe estar 'En revisión' para ser modificado.");
         }
-        evento.setMagnitud(new MagnitudRichter("Actualizada", nuevoValorMagnitud));
+        evento.setMagnitud(new MagnitudRichter(evento.getNombreMagnitud(), nuevoValorMagnitud));
         evento.setAlcanceSismo(nuevoAlcance);
         evento.setOrigenDeGeneracion(nuevoOrigen);
     }

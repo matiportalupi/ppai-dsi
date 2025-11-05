@@ -133,6 +133,8 @@ public class PantallaRegistrarResultadoController {
             }
             gestor.actualizarDatosEventoSismico(eventoSeleccionado, nuevoValorMagnitud, nuevoAlcance, nuevoOrigen);
             mostrarAlerta(Alert.AlertType.INFORMATION, "Éxito", "Los datos del evento han sido actualizados.");
+            tablaEventos.refresh();
+            mostrarDetalles();
         } catch (NumberFormatException e) {
             mostrarAlerta(Alert.AlertType.ERROR, "Error de Formato", "El valor de la magnitud debe ser un número.");
         } catch (IllegalStateException e) {
@@ -166,11 +168,11 @@ public class PantallaRegistrarResultadoController {
     }
     
     @FXML private void generarSismograma() { 
-        mostrarAlerta(Alert.AlertType.INFORMATION, "Funcionalidad no implementada", "Aquí se llamaría al CU 'Generar Sismograma'.");
+        mostrarAlerta(Alert.AlertType.INFORMATION, "Funcionalidad no implementada", "Se llama al CU 'Generar Sismograma'.");
     }
     
     @FXML private void verMapa() { 
-        mostrarAlerta(Alert.AlertType.INFORMATION, "Funcionalidad no implementada", "Aquí se mostraría el mapa del evento sísmico.");
+        mostrarAlerta(Alert.AlertType.INFORMATION, "Funcionalidad no implementada", "Se muestra el mapa del evento sísmico.");
     }
     
     private void mostrarAlerta(Alert.AlertType type, String title, String message) {
